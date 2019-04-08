@@ -1,0 +1,21 @@
+.aboutMeWrapper{
+  background-color: rgb(230, 240, 250);
+  padding: 1% 1% 0% 1%;
+  border-style: solid;
+  border-width: 0px 0px 0px 10px;
+  border-color: #007bff;
+  margin-bottom: 1%;
+}
+
+.question {
+
+}
+
+.answer {
+  color: #555;
+  text-indent: 1%;
+}
+
+.emphasized {
+  color: #007bff;
+}

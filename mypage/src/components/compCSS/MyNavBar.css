@@ -1,0 +1,24 @@
+#myName{
+  font-size: 36px;
+  font-family: 'Poiret One', monospace;
+  font-weight: bolder;
+
+}
+
+.navbar{
+  border-style: groove;
+  border-width: 0px 0px 2px 0px;
+  border-color: #ccc;
+}
+
+.navbar-nav{
+  text-align: center;
+}
+
+.nav-link{
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 0px 25px;
+  padding-bottom: 0px;
+  text-align: center;
+}

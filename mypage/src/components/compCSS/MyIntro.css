@@ -1,0 +1,19 @@
+.introduction{
+  margin-left: 10%;
+  position: absolute;
+  bottom: 0;
+}
+
+.emphasized{
+  color: #007bff;
+}
+
+
+p {
+  font-size: 18px;
+}
+
+.myPic{
+ padding: 20px;
+ margin: 20px 0px;
+}
