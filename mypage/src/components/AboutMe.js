@@ -34,7 +34,7 @@ function AboutMe(props) {
       <p className="answer">
       Mostly because it&apos;s a combinantion of a treasure hunt and a lottery!
       If you are meticulous and careful, you can discover rare exotic critters on nearly any dive,
-      but sometimes if you&apos;re lucky, you can see oceanic giants. Every dive is a new experience.
+      but if you&apos;re lucky, you can see graceful giants. Every dive is a new experience.
       </p>
       <br/>
 
@@ -48,8 +48,8 @@ function AboutMe(props) {
 
       <h4 className="question">If you had to pick one job that wasn&apos;t the one you are currently pursuing, what would it be?</h4>
       <p className="answer">
-      I would probably want to be a professor of some biological or environmental field with lots of field work at a university somewhere warm near the ocean.
-      That way I could get paid to travel to remote places, but still have a stable, relaxed life somewhere else.
+      I would probably want to be a professor of some biological or environmental field at a university somewhere warm near the ocean.
+      It would be great being able to balance between exciting field world in exotic places and a meaningful instruction on an area I cared about.
       </p>
       <br/>
 
