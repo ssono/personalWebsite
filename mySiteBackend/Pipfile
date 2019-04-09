@@ -7,6 +7,17 @@ name = "pypi"
 django = "*"
 djangorestframework = "*"
 pillow = "*"
+dj-database-url = "*"
+django-heroku = "*"
+gunicorn = "*"
+"psycopg2" = "*"
+"psycopg2-binary" = "*"
+pytz = "*"
+pyyaml = "*"
+user-agents = "*"
+ua-parser = "*"
+django-user-agents = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 

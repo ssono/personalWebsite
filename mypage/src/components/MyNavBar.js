@@ -16,7 +16,7 @@ function MyNavBar(props) {
         </li>
 
         <li className="nav-item">
-          <a href="gallery" className="nav-link">Gallery</a>
+          <a href="/gallery" className="nav-link">Gallery</a>
         </li>
 
         <li className="nav-item">
