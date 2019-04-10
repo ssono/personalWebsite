@@ -17,6 +17,8 @@ pyyaml = "*"
 user-agents = "*"
 ua-parser = "*"
 django-user-agents = "*"
+django-storages = "*"
+"boto3" = "*"
 django-cors-headers = "*"
 
 [dev-packages]

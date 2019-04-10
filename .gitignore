@@ -2,3 +2,4 @@
 settings.py
 /mySiteBackend/mySiteBackend/settings.py
 **/settings.py
+*.env
