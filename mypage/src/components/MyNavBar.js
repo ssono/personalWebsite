@@ -1,26 +1,27 @@
 import React from 'react';
 import './compCSS/MyNavBar.css';
 import Resume from "./images/Resume.pdf";
+import {Link} from 'react-router-dom'
 
 function MyNavBar(props) {
 
   return (
     <nav className="navbar navbar-expand-sm">
 
-      <a className="navbar-brand" id="myName">Sage Ono</a>
+      <li className="navbar-brand" id="myName">Sage Ono</li>
 
       <ul className="navbar-nav">
 
         <li className="nav-item">
-          <a href="/" className="nav-link">Home</a>
+          <Link to="/" className="nav-link">Home</Link>
         </li>
 
         <li className="nav-item">
-          <a href="/gallery" className="nav-link">Gallery</a>
+          <Link to="/gallery" className="nav-link">Gallery</Link>
         </li>
 
         <li className="nav-item">
-          <a href={Resume} className="nav-link" target='blank'>Resume</a>
+          <Link to={Resume} className="nav-link" target='blank'>Resume</Link>
         </li>
       </ul>
     </nav>

@@ -12,9 +12,9 @@ function MyIntro(props){
         <div className="introduction">
           <h1>Hello, my name is <span className="emphasized">Sage Ono</span>.</h1>
           <hr></hr>
-          <p>I am currently a junior at Emory University pursuing a <span className="emphasized">joint BS in Math and Computer Science and a BA Philosophy</span>.
+          <p>I am currently a junior at Emory University pursuing a <span className="emphasized">joint BS in Math and Computer Science and a BA in Philosophy</span>.
            After college, I hope to build tools to create more flexible, democratic, and equitable learning and working environments.
-           Aside from my career related interests, I am an a scuba diver, underwater photographer, and collegiate swimmer.
+           Aside from my career related interests, I am a scuba diver, underwater photographer, and collegiate swimmer.
           </p>
         </div>
       </div>

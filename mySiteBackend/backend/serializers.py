@@ -4,7 +4,7 @@ from .models import Trip, Photo
 class PhotoSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Photo
-        fields = "__all__"
+        fields = ('id', 'url','image', 'title', 'trip')
 
 class TripSerializer(serializers.HyperlinkedModelSerializer):
     photos = PhotoSerializer(
