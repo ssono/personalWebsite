@@ -26,7 +26,7 @@ function AboutMe(props) {
 
       <h4 className="question">What important truth do very few people agree with you on?</h4>
       <p className="answer">
-        Subjective, unquantifiable evaluations are as valuable, and in some cases more valuable than objective metrics.
+        Subjective, unquantifiable evaluations are as valuable, and in some cases more valuable, than objective metrics.
       </p>
       <br/>
 
