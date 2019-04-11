@@ -4,4 +4,31 @@
 
 hr{
   border-color: #007bff;
+  border-width: 1px;
+}
+
+.row{
+  margin-top: 2%;
+}
+
+
+.spinner-border{
+  padding: 5%;
+  margin-top: 10%;
+  border-width: 10px;
+}
+
+.tripWrap{
+  text-align: center;
+  background-color: rgb(230, 240, 250);
+  padding: 3% 3% 1% 3%;
+  margin: 1%;
+}
+
+.tripPic{
+
+}
+
+.tripName{
+  margin-top: 3%;
 }
