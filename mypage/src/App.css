@@ -1,4 +1,4 @@
-#main{
+.main{
   padding: 0% 10%;
 }
 
@@ -8,4 +8,15 @@
 
 hr{
   border-color: #007bff;
+}
+
+
+@media (max-width:600px){
+  .main{
+    padding: 0% 5%;
+  }
+
+  .sectionTitles{
+    font-size: 1.5em;
+  }
 }

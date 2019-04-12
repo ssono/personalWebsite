@@ -11,14 +11,31 @@
   border-color: #ccc;
 }
 
-.navbar-nav{
-  text-align: center;
-}
-
 .nav-link{
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: lighter;
   margin: 0px 25px;
   padding-bottom: 0px;
   text-align: center;
+}
+
+@media (max-width: 600px){
+  #myName{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+  }
+  .col-4{
+    padding: 0px;
+  }
+
+  .home{
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .gallery{
+    margin-left: 15px;
+  }
+
 }

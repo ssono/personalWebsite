@@ -4,16 +4,43 @@
   bottom: 0;
 }
 
+h1{
+  font-size: 2em;
+}
+
 .emphasized{
   color: #007bff;
 }
 
 
 p {
-  font-size: 18px;
+  font-size: 1.2em;
 }
 
 .myPic{
- padding: 20px;
- margin: 20px 0px;
+ padding: 5%;
+ margin: 5% 0px;
+}
+
+@media (max-width:600px){
+  .introduction{
+    position: relative;
+    margin: 2%;
+  }
+
+  h1{
+    font-size: 1.5em;
+  }
+
+  p{
+    font-size: .8em;
+  }
+}
+
+@media (max-width:1200px){
+  .introduction{
+    position: relative;
+    margin: 2%;
+  }
+
 }

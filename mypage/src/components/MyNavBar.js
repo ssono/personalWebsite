@@ -10,19 +10,26 @@ function MyNavBar(props) {
 
       <li className="navbar-brand" id="myName">Sage Ono</li>
 
-      <ul className="navbar-nav">
+      <ul className="navbar-nav text-center">
+        <div className="row">
+          <div className="col-4">
+            <li className="nav-item">
+              <Link to="/" className="nav-link home">Home</Link>
+            </li>
+          </div>
 
-        <li className="nav-item">
-          <Link to="/" className="nav-link">Home</Link>
-        </li>
+          <div className="col-4">
+            <li className="nav-item">
+              <Link to="/gallery" className="nav-link gallery">Gallery</Link>
+            </li>
+          </div>
 
-        <li className="nav-item">
-          <Link to="/gallery" className="nav-link">Gallery</Link>
-        </li>
-
-        <li className="nav-item">
-          <Link to={Resume} className="nav-link" target='blank'>Resume</Link>
-        </li>
+          <div className="col-4">
+            <li className="nav-item">
+              <Link to={Resume} className="nav-link resume" target='blank'>Resume</Link>
+            </li>
+          </div>
+        </div>
       </ul>
     </nav>
   )

@@ -8,11 +8,11 @@ import AboutMe from "./components/AboutMe"
 class App extends Component {
   render() {
     return (
-      <div id="main" className="container-fluid">
+      <div className="container-fluid main">
         <MyNavBar />
         <MyIntro />
         <h1 className="sectionTitles">Knowledge and Skills</h1>
-        <hr/>
+        <hr className='hr'/>
         <Skills />
         <h1 className="sectionTitles">FAQ</h1>
         <hr/>
