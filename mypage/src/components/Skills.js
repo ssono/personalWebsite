@@ -4,9 +4,9 @@ import './compCSS/Skills.css';
 function Skills(props) {
 
   return(
-    <div className="row" id="skillsWrapper">
-      <div className="col-md-4">
-        <div className="skillCol">
+    <div className="row row-eq-height" id="skillsWrapper">
+      <div className="col-lg-4">
+        <div className="skillCol h-100">
           <h2>Relevant Courses</h2>
           <ul>
             <li>Data Structures and Algorithms</li>
@@ -17,8 +17,8 @@ function Skills(props) {
           </ul>
         </div>
       </div>
-      <div className="col-md-4">
-        <div className="skillCol">
+      <div className="col-lg-4">
+        <div className="skillCol h-100">
         <h2>Languages</h2>
           <ul>
             <li>Java</li>
@@ -29,8 +29,8 @@ function Skills(props) {
           </ul>
         </div>
       </div>
-      <div className="col-md-4">
-        <div className="skillCol">
+      <div className="col-lg-4">
+        <div className="skillCol h-100">
           <h2>Technologies</h2>
           <ul>
             <li>React.js</li>

@@ -22,7 +22,7 @@ p {
  margin: 5% 0px;
 }
 
-@media (max-width:600px){
+@media (max-width:992px){
   .introduction{
     position: relative;
     margin: 2%;

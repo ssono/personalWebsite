@@ -10,7 +10,7 @@ function MyNavBar(props) {
 
       <li className="navbar-brand" id="myName">Sage Ono</li>
 
-      <ul className="navbar-nav text-center">
+      <ul className="navbar-nav">
         <div className="row">
           <div className="col-4">
             <li className="nav-item">
