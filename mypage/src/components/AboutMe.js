@@ -42,14 +42,14 @@ function AboutMe(props) {
       <p className="answer">
         If one asserts that a straw has two holes, then a piece of paper with a hole in it must also have two holes.
         If one asserts that a straw has one hole, then a wiffle ball must only have one hole.
-        Since both options have practical issues we must then assume that a straw simulaneously has an infinite number of holes and no holes at all.
+        Since both options have practical issues we must then assume that a straw simultaneously has an infinite number of holes and no holes at all.
       </p>
       <br/>
 
       <h4 className="question">If you had to pick one job that wasn&apos;t the one you are currently pursuing, what would it be?</h4>
       <p className="answer">
       I would probably want to be a professor of some biological or environmental field at a university somewhere warm near the ocean.
-      It would be great being able to balance between exciting field world in exotic places and a meaningful instruction on an area I cared about.
+      It would be great being able to balance between exciting field work in exotic places and meaningful instruction in an area I care about.
       </p>
       <br/>
 

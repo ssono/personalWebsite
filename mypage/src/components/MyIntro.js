@@ -8,7 +8,7 @@ function MyIntro(props){
       <div className="col-lg-3 col-sm-6">
         <img src={myPic} className="myPic img-fluid shadow" alt="Me in a shirt"></img>
       </div>
-      <div className="col-lg-6" id="intro">
+      <div className="col-lg-6 col-sm-9" id="intro">
         <div className="introduction">
           <h1>Hello, my name is <span className="emphasized">Sage Ono</span>.</h1>
           <hr></hr>
