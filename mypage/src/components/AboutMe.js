@@ -6,7 +6,7 @@ function AboutMe(props) {
     <div className="aboutMeWrapper shadow">
       <h4 className="question">What&apos;s your life story?</h4>
       <p className="answer">
-      Years 1-12 grew up in Madison, WI. Moved to Atlanta, GA. Skipped senior year of high school to start college at Emory University.
+      Years 1-11 grew up in Madison, WI. Moved to Atlanta, GA. Skipped senior year of high school to start college at Emory University.
       </p>
       <br/>
 
